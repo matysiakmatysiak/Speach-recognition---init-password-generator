@@ -3,7 +3,7 @@ import speech_recognition as sr
 import tkinter
 import sys
 
-#Funkcja
+#Funkcje
 def wyjscie():
     sys.exit()
 def record():
