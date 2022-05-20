@@ -10,11 +10,11 @@ def wyjscie():
 def record():
     recognizer = sr.Recognizer()
     with sr.Microphone() as source:
-        print("Powiedz cos!")
+        print("Mów")
         audio = recognizer.listen(source)
-    print("Powiedziales: ")
+    print("Powiedziałeś: ")
     print(recognizer.recognize_google(audio, language="pl-PL"),"\n")
-    f = open('kontakt.txt', mode='a', encoding='utf-8')
+    f = open('note.txt', mode='a', encoding='utf-8')
     f.write(recognizer.recognize_google(audio, language="pl-PL"))
     f.write("\n")
     f.close()
