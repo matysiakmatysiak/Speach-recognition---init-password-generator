@@ -1,2 +1,2 @@
 # sp-recognition
- Basic tool to create voice notes
+ Basic tool to voice init Password Generator
